@@ -1,4 +1,10 @@
 
+1.2.0 / 2019-03-22
+==================
+
+**others**
+  * [[`742cc40`](http://github.com/dead-horse/node-plantuml/commit/742cc400c3d63efa4a93f096ef526577f516b911)] - deps: plantuml@1.2019.3 (dead-horse <<dead_horse@qq.com>>)
+
 1.1.4 / 2019-01-22
 ==================
 
