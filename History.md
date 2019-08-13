@@ -1,4 +1,10 @@
 
+1.2.1 / 2019-08-13
+==================
+
+**fixes**
+  * [[`67cdb61`](http://github.com/yuque/node-plantuml/commit/67cdb61f981c494bf7725b7df7ab553dad53d90c)] - fix: err with argv (dead-horse <<dead_horse@qq.com>>)
+
 1.2.0 / 2019-03-22
 ==================
 
