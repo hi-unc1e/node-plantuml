@@ -1,4 +1,10 @@
 
+1.3.0 / 2019-09-09
+==================
+
+**others**
+  * [[`f01658f`](http://github.com/yuque/node-plantuml/commit/f01658ff5bfdc60d137efb9f2a2d28212d4cf524)] - deps: plantuml 1.2019.9 (dead-horse <<dead_horse@qq.com>>)
+
 1.2.1 / 2019-08-13
 ==================
 
