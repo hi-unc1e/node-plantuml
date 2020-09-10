@@ -19,6 +19,16 @@ function isBuffersEqual (buf1, buf2) {
 
 describe('node-plantuml', function () {
   describe('#generate()', function () {
+    it('should generate file with callback', function (done) {
+      var expectedBuffer = fs.readFileSync(TEST_PNG)
+      plantuml.generate(TEST_PUML, { format: 'png' }, function (err, buffer) {
+        expect(err).to.equal(null)
+        var eq = isBuffersEqual(buffer, expectedBuffer)
+        expect(eq).to.equal(true)
+        done()
+      })
+    })
+
     it('should generate file into png stream', function (done) {
       var expectedBuffer = fs.readFileSync(TEST_PNG)
       var gen = plantuml.generate(TEST_PUML, { format: 'png' })
@@ -32,6 +42,7 @@ describe('node-plantuml', function () {
         done()
       })
     })
+
     it('should generate to png when there are no options', function (done) {
       var expectedBuffer = fs.readFileSync(TEST_PNG)
       var gen = plantuml.generate(TEST_PUML)
