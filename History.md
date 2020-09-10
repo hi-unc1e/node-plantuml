@@ -1,4 +1,10 @@
 
+2.0.0 / 2020-09-10
+==================
+
+**features**
+  * [[`a7a3f02`](http://github.com/yuque/node-plantuml/commit/a7a3f02efe630afc045d8a84499a9c9dd1050e3c)] - feat: remove nail, upgrade plantuml to 1.2020.16 (dead-horse <<dead_horse@qq.com>>)
+
 1.3.0 / 2019-09-09
 ==================
 
