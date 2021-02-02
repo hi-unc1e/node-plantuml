@@ -1,4 +1,10 @@
 
+2.1.0 / 2021-02-02
+==================
+
+**features**
+  * [[`1a7eab5`](http://github.com/yuque/node-plantuml/commit/1a7eab5716849562f3d559bf1ce7a1b02347d6c1)] - feat: upgrade plantuml 1.2021.0 (dead-horse <<dead_horse@qq.com>>)
+
 2.0.0 / 2020-09-10
 ==================
 
