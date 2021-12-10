@@ -19,5 +19,5 @@ if (!fs.existsSync(JAR_DIR_PATH)) {
   fs.mkdirSync(JAR_DIR_PATH)
 }
 
-console.log('Downloading plantuml.jar version ' + plantumlVersion)
+console.log('Downloading plantuml.jar version ' + plantumlVersion + ' from ' + PLANTUML_FILES_URL + PLANTUML_FILES_JAR_PATH)
 download(PLANTUML_FILES_URL + PLANTUML_FILES_JAR_PATH, PLANTUML_JAR, true)
