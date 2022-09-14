@@ -1,4 +1,10 @@
 
+2.3.0 / 2022-09-14
+==================
+
+**features**
+  * [[`ed4d059`](http://github.com/yuque/node-plantuml/commit/ed4d0598b3ec83c92bfd0f6ba651a2815a65a3d1)] - feat: upgrade plantumlVersion@1.2022.7 (dead-horse <<dead_horse@qq.com>>)
+
 2.2.0 / 2021-12-10
 ==================
 
